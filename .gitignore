@@ -1,0 +1,11 @@
+node_modules/
+.next/
+dist/
+out/
+.turbo/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+auth_info_baileys*/

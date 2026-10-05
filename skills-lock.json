@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "assistant-ui": {
+      "source": "assistant-ui/skills",
+      "sourceType": "github",
+      "skillPath": "assistant-ui/skills/assistant-ui/SKILL.md",
+      "computedHash": "4609b6a2c04097251a1fa79ebbbdf582f1b8b52576dad8123a37979068c0613d"
+    },
+    "docx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/docx/SKILL.md",
+      "computedHash": "59c70107f8eae818bdfca7da685a6e4111aa519638b667775b794cb74987ec47"
+    },
+    "stitch-design-taste": {
+      "source": "leonxlnx/taste-skill",
+      "sourceType": "github",
+      "skillPath": "skills/stitch-skill/SKILL.md",
+      "computedHash": "13322f38406cd3abf16ba45e35bdc9b18002d0153a79b4612b97aefc65d5a335"
+    },
+    "xlsx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/xlsx/SKILL.md",
+      "computedHash": "f5945e6e76dc7c178375e5cdf3140959b30cbcd4570ec3dc62296812259fc38d"
+    }
+  }
+}

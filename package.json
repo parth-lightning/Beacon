@@ -1,0 +1,28 @@
+{
+  "name": "beacon",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.3.14",
+  "scripts": {
+    "dev": "bun run --filter @beacon/web dev",
+    "dev:whatsapp": "bash scripts/dev-whatsapp.sh",
+    "build": "bun run --filter @beacon/web build",
+    "lint": "bun run --filter @beacon/web lint",
+    "typecheck": "bun run --filter @beacon/web typecheck",
+    "web:test": "bun run --filter @beacon/web test",
+    "demo:plant": "bun run --filter @beacon/plant-maintenance-demo dev",
+    "demo:plant:test": "bun run --filter @beacon/plant-maintenance-demo test",
+    "demo:plant:build": "bun run --filter @beacon/plant-maintenance-demo build",
+    "browser:test": "bun run --filter @beacon/browser-control test",
+    "agent:info": "bun run --filter @beacon/agent info",
+    "agent:build": "bun run --filter @beacon/agent build",
+    "agent:test": "bun run --filter @beacon/agent test",
+    "clean:sandboxes": "bash scripts/clean-eve.sh",
+    "clean:sandboxes:all": "bash scripts/clean-eve.sh --all"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
